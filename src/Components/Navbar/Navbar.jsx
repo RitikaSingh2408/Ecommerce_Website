@@ -91,7 +91,7 @@ const Navbar = ({handleOrderPopup}) => {
             
             {/* Darkmode Switch */}
             <div>
-              <DarkMode />
+              <Darkmode />
             </div>
           </div>
         </div>
