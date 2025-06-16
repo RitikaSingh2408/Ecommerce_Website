@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* In your global CSS file (e.g., styles.css) */
+/* :root {
+  --color-primary: #ed9d11;
+  --color-secondary: #ecc94b;
+} */
+  
+  @theme {
+   
+   --color-primary: oklch(79.5% 0.184 86.047);
+   --color-secondary: oklch(79.5% 0.184 86.047);
+   }
+    
+   
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+.container{
+      margin: auto;
+      padding-left:"1rem",
+     
+}
+ @media (min-width: 640px) {
+    .container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+ 
+ 
+}
