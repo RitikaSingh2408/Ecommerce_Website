@@ -27,7 +27,7 @@ const Subscribe = () => {
             type="text"
             placeholder="Enter your email"
             className="w-full p-3 bg-white text-black"
-            netlify
+          
           />
         </div>
       </div>
