@@ -9,10 +9,10 @@
   @theme {
    
    --color-primary: oklch(79.5% 0.184 86.047);
-   --color-secondary: "#c5ff4a";
+   --color-secondary: oklch(79.5% 0.184 86.047);
    }
     
-   
+   /* "#c5ff4a" */
 
 @custom-variant dark (&:where(.dark, .dark *));
 

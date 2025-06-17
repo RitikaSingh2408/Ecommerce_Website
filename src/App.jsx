@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
-import Darkmode from './Components/Navbar/Darkmode'
 import Hero from './Components/Hero/Hero'
 import Products from './Components/Products/Products'
 import AOS from 'aos'
@@ -31,7 +30,7 @@ const App = () => {
   return (
     <div className='bg-white dark:bg-gray-900 dark:text-white duration-200'>
      <Navbar handleOrderPopup={handleOrderPopup}/>
-     <Darkmode/>
+     
      <Hero handleOrderPopup={handleOrderPopup}/>
      <Products/>
      <TopProducts handleOrderPopup={handleOrderPopup}/>
